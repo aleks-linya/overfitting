@@ -11,7 +11,7 @@ It consists of two parts:
 Which itself consists of two parts:
 
 #### 1.1. Recreating overtraining in single model training (number of train iterations)
-[Overfitting notebook](overfitting.ipynb)
+[Overfitting notebook](notebooks/overfitting.ipynb)
 
 This is mostly failed, because of LightGBM algorithm.
 
@@ -26,7 +26,7 @@ My overall impression: I am not impressed and don't understand what is all the f
 
 ### 2. Testing robustness/distribution shift
 
-[Robustness notebook](overfitting.ipynb)
+[Robustness notebook](notebooks/robustness.ipynb)
 
 Here I try to check whether common wisdom (and even official guides) about LightGBM holds in context of model robustness. For this I test different models (conservative, "prone to overfitting") on a modified data with distribution shift.
 
